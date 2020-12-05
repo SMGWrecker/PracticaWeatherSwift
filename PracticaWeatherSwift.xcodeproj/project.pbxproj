@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2D43F4257AAB0A00F60405 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43E8257AAB0900F60405 /* Roboto-BoldItalic.ttf */; };
+		CE2D43F5257AAB0B00F60405 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43E9257AAB0900F60405 /* Roboto-Bold.ttf */; };
+		CE2D43F6257AAB0B00F60405 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43EA257AAB0900F60405 /* Roboto-Light.ttf */; };
+		CE2D43F7257AAB0B00F60405 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43EB257AAB0900F60405 /* Roboto-Black.ttf */; };
+		CE2D43F8257AAB0B00F60405 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43EC257AAB0A00F60405 /* Roboto-LightItalic.ttf */; };
+		CE2D43F9257AAB0B00F60405 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43ED257AAB0A00F60405 /* Roboto-Regular.ttf */; };
+		CE2D43FA257AAB0B00F60405 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43EE257AAB0A00F60405 /* Roboto-MediumItalic.ttf */; };
+		CE2D43FB257AAB0B00F60405 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43EF257AAB0A00F60405 /* Roboto-Italic.ttf */; };
+		CE2D43FC257AAB0B00F60405 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43F0257AAB0A00F60405 /* Roboto-Thin.ttf */; };
+		CE2D43FD257AAB0B00F60405 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43F1257AAB0A00F60405 /* Roboto-ThinItalic.ttf */; };
+		CE2D43FE257AAB0B00F60405 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43F2257AAB0A00F60405 /* Roboto-Medium.ttf */; };
+		CE2D43FF257AAB0B00F60405 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE2D43F3257AAB0A00F60405 /* Roboto-BlackItalic.ttf */; };
+		CEE70543257A956900379231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE70542257A956900379231 /* ViewController.swift */; };
+		CEF66E48257A42220069646F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF66E47257A42220069646F /* AppDelegate.swift */; };
+		CEF66E4A257A42220069646F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF66E49257A42220069646F /* SceneDelegate.swift */; };
+		CEF66E4F257A42220069646F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF66E4D257A42220069646F /* Main.storyboard */; };
+		CEF66E51257A42290069646F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF66E50257A42290069646F /* Assets.xcassets */; };
+		CEF66E54257A42290069646F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF66E52257A42290069646F /* LaunchScreen.storyboard */; };
+		CEF66E5E257A543A0069646F /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CEF66E5D257A543A0069646F /* SwiftyJSON */; };
+		CEF66E62257A560D0069646F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CEF66E61257A560D0069646F /* Alamofire */; };
+		CEF66E65257A701A0069646F /* citiesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF66E64257A701A0069646F /* citiesTVC.swift */; };
+		CEF66E68257A71E80069646F /* citiesNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF66E67257A71E80069646F /* citiesNameCell.swift */; };
+		CEF66E6B257A8ADE0069646F /* detailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF66E6A257A8ADE0069646F /* detailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE2D43E8257AAB0900F60405 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE2D43E9257AAB0900F60405 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CE2D43EA257AAB0900F60405 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CE2D43EB257AAB0900F60405 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CE2D43EC257AAB0A00F60405 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		CE2D43ED257AAB0A00F60405 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CE2D43EE257AAB0A00F60405 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CE2D43EF257AAB0A00F60405 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		CE2D43F0257AAB0A00F60405 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CE2D43F1257AAB0A00F60405 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CE2D43F2257AAB0A00F60405 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CE2D43F3257AAB0A00F60405 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CEE70542257A956900379231 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF66E44257A42220069646F /* PracticaWeatherSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaWeatherSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF66E47257A42220069646F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF66E49257A42220069646F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEF66E4E257A42220069646F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF66E50257A42290069646F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF66E53257A42290069646F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF66E55257A42290069646F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF66E64257A701A0069646F /* citiesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesTVC.swift; sourceTree = "<group>"; };
+		CEF66E67257A71E80069646F /* citiesNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citiesNameCell.swift; sourceTree = "<group>"; };
+		CEF66E6A257A8ADE0069646F /* detailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF66E41257A42220069646F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF66E5E257A543A0069646F /* SwiftyJSON in Frameworks */,
+				CEF66E62257A560D0069646F /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2D43E7257AAA9400F60405 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D43EB257AAB0900F60405 /* Roboto-Black.ttf */,
+				CE2D43F3257AAB0A00F60405 /* Roboto-BlackItalic.ttf */,
+				CE2D43E9257AAB0900F60405 /* Roboto-Bold.ttf */,
+				CE2D43E8257AAB0900F60405 /* Roboto-BoldItalic.ttf */,
+				CE2D43EF257AAB0A00F60405 /* Roboto-Italic.ttf */,
+				CE2D43EA257AAB0900F60405 /* Roboto-Light.ttf */,
+				CE2D43EC257AAB0A00F60405 /* Roboto-LightItalic.ttf */,
+				CE2D43F2257AAB0A00F60405 /* Roboto-Medium.ttf */,
+				CE2D43EE257AAB0A00F60405 /* Roboto-MediumItalic.ttf */,
+				CE2D43ED257AAB0A00F60405 /* Roboto-Regular.ttf */,
+				CE2D43F0257AAB0A00F60405 /* Roboto-Thin.ttf */,
+				CE2D43F1257AAB0A00F60405 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEF66E3B257A42220069646F = {
+			isa = PBXGroup;
+			children = (
+				CEF66E46257A42220069646F /* PracticaWeatherSwift */,
+				CEF66E45257A42220069646F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF66E45257A42220069646F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF66E44257A42220069646F /* PracticaWeatherSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF66E46257A42220069646F /* PracticaWeatherSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CEF66E47257A42220069646F /* AppDelegate.swift */,
+				CEF66E49257A42220069646F /* SceneDelegate.swift */,
+				CEE70542257A956900379231 /* ViewController.swift */,
+				CEF66E4D257A42220069646F /* Main.storyboard */,
+				CEF66E6A257A8ADE0069646F /* detailVC.swift */,
+				CEF66E67257A71E80069646F /* citiesNameCell.swift */,
+				CEF66E64257A701A0069646F /* citiesTVC.swift */,
+				CEF66E50257A42290069646F /* Assets.xcassets */,
+				CEF66E52257A42290069646F /* LaunchScreen.storyboard */,
+				CEF66E55257A42290069646F /* Info.plist */,
+				CE2D43E7257AAA9400F60405 /* Fonts */,
+			);
+			path = PracticaWeatherSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF66E43257A42220069646F /* PracticaWeatherSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF66E58257A42290069646F /* Build configuration list for PBXNativeTarget "PracticaWeatherSwift" */;
+			buildPhases = (
+				CEF66E40257A42220069646F /* Sources */,
+				CEF66E41257A42220069646F /* Frameworks */,
+				CEF66E42257A42220069646F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticaWeatherSwift;
+			packageProductDependencies = (
+				CEF66E5D257A543A0069646F /* SwiftyJSON */,
+				CEF66E61257A560D0069646F /* Alamofire */,
+			);
+			productName = PracticaWeatherSwift;
+			productReference = CEF66E44257A42220069646F /* PracticaWeatherSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF66E3C257A42220069646F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CEF66E43257A42220069646F = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = CEF66E3F257A42220069646F /* Build configuration list for PBXProject "PracticaWeatherSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF66E3B257A42220069646F;
+			packageReferences = (
+				CEF66E5C257A543A0069646F /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				CEF66E60257A560D0069646F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = CEF66E45257A42220069646F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF66E43257A42220069646F /* PracticaWeatherSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF66E42257A42220069646F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF66E54257A42290069646F /* LaunchScreen.storyboard in Resources */,
+				CEF66E51257A42290069646F /* Assets.xcassets in Resources */,
+				CE2D43F8257AAB0B00F60405 /* Roboto-LightItalic.ttf in Resources */,
+				CE2D43F6257AAB0B00F60405 /* Roboto-Light.ttf in Resources */,
+				CE2D43F5257AAB0B00F60405 /* Roboto-Bold.ttf in Resources */,
+				CE2D43F7257AAB0B00F60405 /* Roboto-Black.ttf in Resources */,
+				CE2D43FA257AAB0B00F60405 /* Roboto-MediumItalic.ttf in Resources */,
+				CE2D43FF257AAB0B00F60405 /* Roboto-BlackItalic.ttf in Resources */,
+				CE2D43F9257AAB0B00F60405 /* Roboto-Regular.ttf in Resources */,
+				CE2D43FC257AAB0B00F60405 /* Roboto-Thin.ttf in Resources */,
+				CE2D43F4257AAB0A00F60405 /* Roboto-BoldItalic.ttf in Resources */,
+				CE2D43FE257AAB0B00F60405 /* Roboto-Medium.ttf in Resources */,
+				CE2D43FB257AAB0B00F60405 /* Roboto-Italic.ttf in Resources */,
+				CEF66E4F257A42220069646F /* Main.storyboard in Resources */,
+				CE2D43FD257AAB0B00F60405 /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF66E40257A42220069646F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE70543257A956900379231 /* ViewController.swift in Sources */,
+				CEF66E65257A701A0069646F /* citiesTVC.swift in Sources */,
+				CEF66E68257A71E80069646F /* citiesNameCell.swift in Sources */,
+				CEF66E6B257A8ADE0069646F /* detailVC.swift in Sources */,
+				CEF66E48257A42220069646F /* AppDelegate.swift in Sources */,
+				CEF66E4A257A42220069646F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF66E4D257A42220069646F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF66E4E257A42220069646F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF66E52257A42290069646F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF66E53257A42290069646F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF66E56257A42290069646F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF66E57257A42290069646F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF66E59257A42290069646F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticaWeatherSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rabota2.PracticaWeatherSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF66E5A257A42290069646F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticaWeatherSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rabota2.PracticaWeatherSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF66E3F257A42220069646F /* Build configuration list for PBXProject "PracticaWeatherSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF66E56257A42290069646F /* Debug */,
+				CEF66E57257A42290069646F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF66E58257A42290069646F /* Build configuration list for PBXNativeTarget "PracticaWeatherSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF66E59257A42290069646F /* Debug */,
+				CEF66E5A257A42290069646F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEF66E5C257A543A0069646F /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CEF66E60257A560D0069646F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEF66E5D257A543A0069646F /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEF66E5C257A543A0069646F /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		CEF66E61257A560D0069646F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEF66E60257A560D0069646F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CEF66E3C257A42220069646F /* Project object */;
+}
